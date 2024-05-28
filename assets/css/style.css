@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/assets/img/background-pattern-desktop.svg");
+  background-position: top;
+  background-color: hsl(275, 100%, 97%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: hsl(292, 42%, 14%);
+  font-family: "Work Sans", sans-serif;
+}
+
+.content {
+  background-color: hsl(0, 0%, 100%);
+  width: 70vh;
+  height: auto;
+  margin: 20vh auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tittle {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.tittle h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.question1,
+.question2,
+.question3,
+.question4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
