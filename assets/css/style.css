@@ -70,7 +70,7 @@ button {
 
 @media screen and (max-width: 575px) {
   body {
-    background-image: url("../img/background-pattern-mobile.svg");
+    background-image: url("./../img/background-pattern-mobile.svg");
     background-position: top;
     background-color: hsl(275, 100%, 97%);
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ button {
 
 @media screen and (max-width: 375px) {
   body {
-    background-image: url("../img/background-pattern-mobile.svg");
+    background-image: url("./../img/background-pattern-mobile.svg");
     background-position: top;
     background-color: hsl(275, 100%, 97%);
     background-repeat: no-repeat;
