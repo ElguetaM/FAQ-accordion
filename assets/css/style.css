@@ -15,8 +15,7 @@ body {
 
 .content {
   background-color: hsl(0, 0%, 100%);
-  width: 70vh;
-  height: auto;
+  width: 65vh;
   margin: 20vh auto;
   padding: 40px;
   border-radius: 10px;
@@ -30,10 +29,9 @@ body {
 }
 
 .tittle h1 {
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 700;
   color: hsl(292, 42%, 14%);
-  margin: 10px;
 }
 
 .question1,
@@ -44,13 +42,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
-}
-
-.set1,
-.set2,
-.set3,
-.set4 {
-  margin: 20px, 0;
 }
 
 h2 {
@@ -69,10 +60,92 @@ p {
 
 hr {
   color: hsl(292, 16%, 49%);
-  padding: 10px
+  padding: 10px;
 }
 
 button {
   border: none;
   background-color: transparent;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    background-image: url("/assets/img/background-pattern-mobile.svg");
+    background-position: top;
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .content {
+    width: 40vh;
+    margin: 10vh auto;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .tittle img {
+    height: 25px;
+    padding-right: 10px;
+  }
+
+  .tittle h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1em;
+    margin-right: 10px;
+  }
+
+  .question1,
+  .question2,
+  .question3,
+  .question4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url("/assets/img/background-pattern-mobile.svg");
+    background-position: top;
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .content {
+    width: 50vh;
+    margin: 10vh auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .tittle img {
+    height: 25px;
+    padding-right: 10px;
+  }
+
+  .tittle h1 {
+    font-size: 2rem;
+  }
+
+  .question1,
+  .question2,
+  .question3,
+  .question4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
 }
